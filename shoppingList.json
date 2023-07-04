@@ -1,0 +1,49 @@
+{
+  "ShoppingList": [
+    {
+      "id": 1,
+      "client": "Jon Jones",
+      "phone": "07600734512",
+      "items": [
+        "Milk",
+        "Cheese",
+        "Eggs",
+        "Steak",
+        "Asparagus"
+      ]
+    },
+    {
+      "id": 2,
+      "client": "Cindy Beale",
+      "phone": "07600734513",
+      "items": [
+        "Oranges",
+        "Pasta",
+        "Candles",
+        [
+          "Lavender",
+          "Lemon",
+          "Orange"
+        ],
+        "Shepherds pie"
+      ]
+    },
+    {
+      "id": 3,
+      "client": "Usain Bolt",
+      "phone": "07600734513",
+      "items": [
+        "Grapes",
+        "Potatoes",
+        "Eggs",
+        "Cereal",
+        [
+          "Weetabix",
+          "Shreddies",
+          "Coco Pops"
+        ],
+        "Spinach"
+      ]
+    }
+  ]
+}

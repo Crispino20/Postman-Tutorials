@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "5a8ac126-2001-4d66-badd-b37a8cfa59c1",
+		"name": "Created API - Shopping List",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16312575"
+	},
+	"item": [
+		{
+			"name": "GET all shopping lists",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/ShoppingList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ShoppingList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET a shopping list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/ShoppingList/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ShoppingList",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create new shopping list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"4\",\r\n    \"name\":\"Diane Abbot\",\r\n    \"age\":\"60\",\r\n    \"favourite foods\":[\r\n        \"Watermelon\",\r\n        \"Chicken Wings\",\r\n        \"Peas\"\r\n        ]\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/ShoppingList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ShoppingList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update a shopping list",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n    \"id\": 2,\r\n    \"client\": \"Cindy Beale\",\r\n    \"phone\": \"07600734513\",\r\n    \"items\": [\r\n      \"Oranges\",\r\n      \"Pasta\",\r\n      \"Candles\",\r\n      [\r\n        \"Lavender\",\r\n        \"Lemon\",\r\n        \"Orange\"\r\n      ],\r\n      \"Shepherds pie\"\r\n    ]\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/ShoppingList/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ShoppingList",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete shopping list",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/ShoppingList/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ShoppingList",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
