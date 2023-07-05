@@ -5,7 +5,7 @@ Exercises:
 - ✅ Create a dummy API called Shopping list 
 - ✅ Must contain nested arrays 
 - ✅ Create a CRUD Test Plan against it 
-- ✅ Use JSON path finder to extract key values 
+- ✅ Use JSON path finder to extract key values. Use [JSON path finder](https://jsonpathfinder.com/) or [JSON Editor Online](https://jsoneditoronline.org/) to verify the JSON paths 
   - Find value of Client in the first array
     - **ShoppingList[0].client**
   - Find value of Items in the second array
